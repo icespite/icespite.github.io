@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-08-19T09:42:20.377Z</updated>
+  <updated>2019-08-19T15:04:03.275Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2019/08/19/icespite-s-blog/"/>
     <id>http://yoursite.com/2019/08/19/icespite-s-blog/</id>
     <published>2019-08-19T07:39:05.000Z</published>
-    <updated>2019-08-19T09:42:20.377Z</updated>
+    <updated>2019-08-19T15:04:03.275Z</updated>
     
     <content type="html"><![CDATA[<p> $ hexo clean<br> //该命令的作用是清除缓存，若不输入此命令，服务器有可能更新不了主题<br> $ hexo g -d （在hexo目录）是更新代码</p>]]></content>
     
@@ -35,6 +35,10 @@
     
     </summary>
     
+      <category term="休闲随笔" scheme="http://yoursite.com/categories/%E4%BC%91%E9%97%B2%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="myself" scheme="http://yoursite.com/tags/myself/"/>
     
   </entry>
   
