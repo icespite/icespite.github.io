@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-08-19T09:42:20.377Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>icespite</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>icespite&#39;s blog</title>
+    <link href="http://yoursite.com/2019/08/19/icespite-s-blog/"/>
+    <id>http://yoursite.com/2019/08/19/icespite-s-blog/</id>
+    <published>2019-08-19T07:39:05.000Z</published>
+    <updated>2019-08-19T09:42:20.377Z</updated>
+    
+    <content type="html"><![CDATA[<p> $ hexo clean<br> //该命令的作用是清除缓存，若不输入此命令，服务器有可能更新不了主题<br> $ hexo g -d （在hexo目录）是更新代码</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt; $ hexo clean&lt;br&gt; //该命令的作用是清除缓存，若不输入此命令，服务器有可能更新不了主题&lt;br&gt; $ hexo g -d （在hexo目录）是更新代码&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
