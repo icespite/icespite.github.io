@@ -239,13 +239,22 @@
 </article>
 
 
+<div id="comments-template"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script>
+	if(!window.commentConfig) {
+      window.commentConfig = {}
+      window.commentConfig.title = '关于我'
+    }
+</script>
+
 
 <div id="container"></div>
 <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
 <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
 <script>
 var gitment = new Gitment({
-  id: '页面 ID', // 可选。默认为 location.href
+  id: 'location.href', // 可选。默认为 location.href
   owner: 'icespite',  //改你自己的名字
   repo: 'IceSpiteComment',  //专门储存评论一个GitHub仓库
   oauth: {
@@ -379,7 +388,7 @@ gitment.render('container')
                 
                 <div class="cloud-tags tab-pane nav bs-sidenav fade" id="sidebar-tags">
     
-    <a href="/tags/myself/" style="font-size: 18.695695562653px;" class="tag-cloud-link">myself</a>
+    <a href="/tags/myself/" style="font-size: 15.873273365766941px;" class="tag-cloud-link">myself</a>
     
 </div>
                 
@@ -495,5 +504,27 @@ gitment.render('container')
 </script>
 <script src="/js/comment/leancloud.js"></script>
 
+
+<script src="https://myau.moe/js/comment/gitment.browser.js"></script>
+<script>
+    if(window.commentConfig) {
+      window.commentConfig.id = 'Mon Aug 19 2019 22:52:24 GMT+0800'
+      window.commentConfig.owner = '50160905'
+      window.commentConfig.repo = 'IceSpiteComment'
+      window.commentConfig.client_id = 'c31f6ff71525494d8a46'
+      window.commentConfig.client_secret = '40f37c7f103eb4ecda2f34b93494ce2b192966d8'
+      window.commentConfig.redirect_uri = ''
+    } else {
+      window.commentConfig = {
+      	id: 'Mon Aug 19 2019 22:52:24 GMT+0800',
+        owner: '50160905',
+        repo: 'IceSpiteComment',
+        client_id: 'c31f6ff71525494d8a46',
+        client_secret: '40f37c7f103eb4ecda2f34b93494ce2b192966d8',
+        redirect_uri: ''
+      }
+    }
+</script>
+<script src="/js/comment/gitment.js"></script>
 
 </html>
