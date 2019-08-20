@@ -7,7 +7,10 @@
     <meta name="keywords" content="test, IceSpite的小窝">
     <meta name="description" content="一级标题一级之下
 二级标题二级之下
-">
+
+        document.querySelectorAll(&#39;.github-emoji&#39;)
+          .forEach(el =&gt; {
+            if (!el.dat">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -30,7 +33,7 @@
     </style>
 
     <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
-</head>
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 
 <body>
@@ -422,7 +425,25 @@
             <div id="articleContent">
                 <h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><p>一级之下</p>
 <h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><p>二级之下</p>
-
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
             </div>
             <hr/>
 
@@ -898,6 +919,9 @@
                     <div class="summary block-with-text">
                         
                             
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return
                         
                     </div>
                     <div class="publish-info">
@@ -946,23 +970,7 @@
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
-这是我的第一个blog，欢迎大家来光顾鸭，嘻嘻嘻嘻。
-
-
-
-
-
-
-
-
-
-一些常用代码：用作勉励，其实是记不住
-
-
- $ hexo clean  
- //该命令的作用是清除缓存，若不输入此命令，服务器有可能更新不了主题
- $ hexo g 
+                            第一个博客哦
                         
                     </div>
                     <div class="publish-info">
