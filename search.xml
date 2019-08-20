@@ -8,7 +8,7 @@
       <link href="/2019/08/20/guaigai/"/>
       <url>/2019/08/20/guaigai/</url>
       
-        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+        <content type="html"><![CDATA[<p>先咕着，以后补上。（手动滑稽）</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
       
       
       <categories>
@@ -29,24 +29,11 @@
     
     
     <entry>
-      <title>test</title>
-      <link href="/2019/08/20/test/"/>
-      <url>/2019/08/20/test/</url>
-      
-        <content type="html"><![CDATA[<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><p>一级之下</p><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><p>二级之下</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>icespite&#39;s blog</title>
       <link href="/2019/08/19/icespite-s-blog/"/>
       <url>/2019/08/19/icespite-s-blog/</url>
       
-        <content type="html"><![CDATA[<p>这是我的第一个blog，欢迎大家来光顾鸭，嘻嘻嘻嘻。</p><a id="more"></a><br>一些常用代码：用作勉励，<del>其实是记不住</del><br><p> $ hexo clean   //该命令的作用是清除缓存，若不输入此命令，服务器有可能更新不了主题<br> $ hexo g -d （在hexo目录）是更新代码</p><p>标签、分类等：<br>回到hexo文件夹下，依次执行hexo g，hexo server和hexo deploy命令(重新部署)。</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+        <content type="html"><![CDATA[<p>这是我的第一个blog，欢迎大家来光顾鸭，嘻嘻嘻嘻。</p><p>暂定本博客会持续更新一些自用的且个人认为比较优秀官改系统（<strong>miui</strong>）和xp插件、magisk模块和app等，同时也会为大家排雷，分享我遇到的不怎么好的经历，（实名diss酷安上面杂七杂八的官改,比如 <strong>SkyMi</strong>），还有一些我遇到的问题及其解决办法。</p><p>也会作为一个笔记性质的博客啦，分享经历吼。</p><p>最后希望大家能常来吼。</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
       
       
       <categories>
