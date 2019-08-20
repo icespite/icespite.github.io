@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://icespite.top/"/>
   <updated>2019-08-20T03:04:45.026Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://icespite.top/</id>
   
   <author>
     <name>IceSpite</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>test</title>
-    <link href="http://yoursite.com/2019/08/20/test/"/>
-    <id>http://yoursite.com/2019/08/20/test/</id>
+    <link href="http://icespite.top/2019/08/20/test/"/>
+    <id>http://icespite.top/2019/08/20/test/</id>
     <published>2019-08-20T03:04:44.000Z</published>
     <updated>2019-08-20T03:04:45.026Z</updated>
     
@@ -32,8 +32,8 @@
   
   <entry>
     <title>icespite&#39;s blog</title>
-    <link href="http://yoursite.com/2019/08/19/icespite-s-blog/"/>
-    <id>http://yoursite.com/2019/08/19/icespite-s-blog/</id>
+    <link href="http://icespite.top/2019/08/19/icespite-s-blog/"/>
+    <id>http://icespite.top/2019/08/19/icespite-s-blog/</id>
     <published>2019-08-19T07:39:05.000Z</published>
     <updated>2019-08-19T15:28:26.928Z</updated>
     
@@ -61,10 +61,10 @@
     
     </summary>
     
-      <category term="休闲随笔" scheme="http://yoursite.com/categories/%E4%BC%91%E9%97%B2%E9%9A%8F%E7%AC%94/"/>
+      <category term="休闲随笔" scheme="http://icespite.top/categories/%E4%BC%91%E9%97%B2%E9%9A%8F%E7%AC%94/"/>
     
     
-      <category term="myself" scheme="http://yoursite.com/tags/myself/"/>
+      <category term="myself" scheme="http://icespite.top/tags/myself/"/>
     
   </entry>
   
