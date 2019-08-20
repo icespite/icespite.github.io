@@ -31,6 +31,14 @@
         }
     </style>
     
+    <script src="//cdn1.lncld.net/static/js/3.4.2/av-min.js"></script>
+    <script>
+      AV.init({
+        appId: 'KEK2Kpc70jpdLcafqij4gkmp-gzGzoHsz',
+        appKey: 'M7jWGalf1nUjE7Oo9Rt3J5Qd'
+      })
+    </script>
+    
     <!--<script type="text/javascript">
       if (document.images) {
         var avatar = new Image();
@@ -43,6 +51,9 @@
         }
       }
     </script>-->
+	
+	<script src="https://cdn1.lncld.net/static/js/av-min-1.2.1.js"></script>
+  <script>AV.initialize("KEK2Kpc70jpdLcafqij4gkmp-gzGzoHsz", "M7jWGalf1nUjE7Oo9Rt3J5Qd");</script>
 </head></html>
 <body>
     <!-- 背景轮播图功能 -->
@@ -57,6 +68,24 @@
     </ul>
 </section>
     <!-- 欧尼酱功能, 谁用谁知道 -->
+    
+    <div class="gal-menu gal-dropdown">
+    <div class="circle" id="gal">
+        <div class="ring">
+            <a href="http://yoursite.com" class="menuItem" style="left: 50%; top: 15%;">首页</a>
+            
+            <a class="menuItem" style="left: 80.3109%; top: 32.5%;">下一页</a>
+            
+            <a href="/archives" class="menuItem" style="left: 80.3109%; top: 67.5%;">归档</a>
+            <a href="/about" class="menuItem" style="left: 50%; top: 85%;">关于</a>
+            <a href="/message" class="menuItem" style="left: 19.6891%; top: 67.5%;">留言板</a>
+            
+            <a class="menuItem" style="left: 19.6891%; top: 32.5%;">上一页</a>
+            
+        </div>
+        <audio id="audio" src="/imgs/oni.mp3"></audio>
+    </div>
+</div>
     
     <header class="navbar navbar-inverse" id="gal-header">
     <div class="container">
@@ -167,9 +196,11 @@
     <!-- TODO 添加关闭公告框功能 -->
     <button type="button" class="close" data-dismiss="alert">×</button>
     <!-- 这里自行配置公告内容 -->
-    这里是公告内容
+    菜鸡icespite的小窝
     <br>
-    配置相关说明请看<strong>_config.yml</strong>
+    欢迎搭嘎来玩哦，并且<strong><del>绝对没有车</del></strong>
+	<br>
+	(狗头保命)
     <!-- 自行配置公告内容结束 -->
 </div>
 
@@ -201,6 +232,10 @@
             </span>
             
             
+            <span class="label label-gal">
+                <i class="fa fa-eye"></i>
+            </span>
+            
             <!-- TODO 添加评论统计 -->
             <!--<span class="label label-gal">
                 <i class="fa fa-comments"></i>
@@ -212,7 +247,7 @@
                 <a href="/2019/08/19/icespite-s-blog/">
                     <div class="img">
                         
-                        <img src="/imgs/preview/preview4.jpg" alt="icespite&#39;s blog">
+                        <img src="/imgs/preview/preview2.jpg" alt="icespite&#39;s blog">
                     </div>
                     <div class="info">
                         
@@ -245,13 +280,15 @@
             
             
             
+            <i class="fa fa-eye"></i>
+            
         </center>
         <p></p>
         <div class="alert alert-gal article-body content-article">
             <p style="text-align: center;">
                 <a href="/2019/08/19/icespite-s-blog/">
                     
-                    <img src="/imgs/preview/preview1.jpg" alt="icespite&#39;s blog">
+                    <img src="/imgs/preview/preview2.jpg" alt="icespite&#39;s blog">
                 </a>
             </p>
         </div>
@@ -317,19 +354,19 @@
     </div>
 </aside>
     
-    <aside id="sidebar-recent_comments">
-    <div class="panel panel-gal recent hidden-xs" data-aos="fade-up" data-aos-duration="2000">
+    <!-- 要配置好leancloud才能开启此小工具 -->
+    
+    <aside id="sidebar-hot_posts">
+    <div class="panel panel-gal hot hidden-xs" data-aos="fade-up" data-aos-duration="2000">
         <div class="panel-heading">
-            <i class="fa fa-comments"></i>
-            最新评论
+            <i class="fa fa-fire"></i>
+            最热文章
             <i class="fa fa-times-circle panel-remove"></i>
             <i class="fa fa-chevron-circle-up panel-toggle"></i>
         </div>
         <ul class="list-group list-group-flush"></ul>
     </div>
 </aside>
-    
-    <!-- 要配置好leancloud才能开启此小工具 -->
     
     
     <aside id="sidebar-recent_posts">
@@ -399,7 +436,7 @@
                 
                 <div class="cloud-tags tab-pane nav bs-sidenav fade" id="sidebar-tags">
     
-    <a href="/tags/myself/" style="font-size: 13.04003712754291px;" class="tag-cloud-link">myself</a>
+    <a href="/tags/myself/" style="font-size: 11.89445551498001px;" class="tag-cloud-link">myself</a>
     
 </div>
                 
@@ -424,7 +461,7 @@
                 <div class="links tab-pane nav bs-sidenav fade" id="sidebar-links">
     
     <li>
-        <a href="https://github.com/ZEROKISEKI/" target="_blank">Github</a>
+        <a href="https://github.com/icespite?tab=repositories" target="_blank">Github</a>
     </li>
     
     <li>
@@ -447,7 +484,7 @@
     </div>
     <footer id="gal-footer">
     <div class="container">
-        Copyright © 2018 IceSpite Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>.&nbsp;Theme by <a href="https://github.com/ZEROKISEKI" target="_blank">AONOSORA</a>
+        Copyright © 2018 IceSpite Powered by <a href="https://hexo.io/" target="_blank">IceSpite</a>.&nbsp;Theme by <a href="https://github.com/icespite" target="_blank">IceSpite</a>
     </div>
 </footer>
 
@@ -506,6 +543,14 @@
 <script src="/js/hs.js"></script>
 <script src="/js/blog.js"></script>
 
+<script src="/js/oni.js"></script>
+
+
+<script>
+    window.hot_posts_count = '10'
+    // window.use_leancloud = 'true'
+</script>
+<script src="/js/comment/leancloud.js"></script>
 
 
 <script src="https://myau.moe/js/comment/gitment.browser.js"></script>
@@ -513,7 +558,7 @@
     if(window.commentConfig) {
       window.commentConfig.id = ''
       window.commentConfig.owner = '50160905'
-      window.commentConfig.repo = 'icespite.github.io'
+      window.commentConfig.repo = 'IceSpiteComment'
       window.commentConfig.client_id = 'c31f6ff71525494d8a46'
       window.commentConfig.client_secret = '40f37c7f103eb4ecda2f34b93494ce2b192966d8'
       window.commentConfig.redirect_uri = ''
@@ -521,7 +566,7 @@
       window.commentConfig = {
       	id: '',
         owner: '50160905',
-        repo: 'icespite.github.io',
+        repo: 'IceSpiteComment',
         client_id: 'c31f6ff71525494d8a46',
         client_secret: '40f37c7f103eb4ecda2f34b93494ce2b192966d8',
         redirect_uri: ''
