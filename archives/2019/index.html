@@ -337,7 +337,7 @@
                 
                 <div class="cloud-tags tab-pane nav bs-sidenav fade" id="sidebar-tags">
     
-    <a href="/tags/myself/" style="font-size: 11.144187064684665px;" class="tag-cloud-link">myself</a>
+    <a href="/tags/myself/" style="font-size: 8.47357225230035px;" class="tag-cloud-link">myself</a>
     
 </div>
                 
@@ -451,5 +451,27 @@
 </script>
 <script src="/js/comment/leancloud.js"></script>
 
+
+<script src="https://myau.moe/js/comment/gitment.browser.js"></script>
+<script>
+    if(window.commentConfig) {
+      window.commentConfig.id = ''
+      window.commentConfig.owner = '50160905# 必填项, 你的GitHub ID'
+      window.commentConfig.repo = 'icespite.github.io# 必填项  你的存储评论的repo'
+      window.commentConfig.client_id = 'c31f6ff71525494d8a46# 必填项'
+      window.commentConfig.client_secret = '8b9917a2bac46577e9a9f192fdcc1112da06d32f# 必填项'
+      window.commentConfig.redirect_uri = ''
+    } else {
+      window.commentConfig = {
+      	id: '',
+        owner: '50160905# 必填项, 你的GitHub ID',
+        repo: 'icespite.github.io# 必填项  你的存储评论的repo',
+        client_id: 'c31f6ff71525494d8a46# 必填项',
+        client_secret: '8b9917a2bac46577e9a9f192fdcc1112da06d32f# 必填项',
+        redirect_uri: ''
+      }
+    }
+</script>
+<script src="/js/comment/gitment.js"></script>
 
 </html>
