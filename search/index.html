@@ -3,14 +3,14 @@
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="author" content="icespite">
+    <meta name="author" content="IceSpite">
     
     
     
     
     
     
-    <title>search | icespite的小窝</title>
+    <title>search | IceSpite的小窝</title>
     <link href="”http://yoursite.com“" rel="”prefetch”">
 
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -90,7 +90,7 @@
                     }
                 </style>
                 <!-- 这里使用文字(navbar_text or config.title) -->
-                <div class="navbar-brand">icespite的小窝</div>
+                <div class="navbar-brand">IceSpite的小窝</div>
                 
             </a>
         </div>
@@ -205,7 +205,7 @@
     // 获取每页的页码数
     var pageSize = '10'
     var useLeancloud = 'M7jWGalf1nUjE7Oo9Rt3J5Qd# your appKeym'
-    var useComment = ('true' === 'true')
+    var useComment = ('false' === 'true')
     $.getJSON('/content.json', function (json) {
       $('#search-breadcrumb').append(`搜索'${s}'的结果`)
       var result = getArticles(s, 'posts', json).concat(getArticles(s, 'pages', json))
@@ -401,7 +401,7 @@
     <div class="panel panel-gal" data-aos="flip-right" data-aos-duration="3000">
         <div class="panel-heading" style="text-align: center">
             <i class="fa fa-quote-left"></i>
-            icespite
+            IceSpite
             <i class="fa fa-quote-right"></i>
         </div>
         <div class="author-panel text-center">
@@ -506,7 +506,7 @@
                 
                 <div class="cloud-tags tab-pane nav bs-sidenav fade" id="sidebar-tags">
     
-    <a href="/tags/myself/" style="font-size: 18.852446432290193px;" class="tag-cloud-link">myself</a>
+    <a href="/tags/myself/" style="font-size: 12.664709652913029px;" class="tag-cloud-link">myself</a>
     
 </div>
                 
@@ -554,7 +554,7 @@
     </div>
     <footer id="gal-footer">
     <div class="container">
-        Copyright © 2018 icespite Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>.&nbsp;Theme by <a href="https://github.com/ZEROKISEKI" target="_blank">AONOSORA</a>
+        Copyright © 2018 IceSpite Powered by <a href="https://hexo.io/" target="_blank">IceSpite</a>.&nbsp;Theme by <a href="https://github.com/icespite" target="_blank">AONOSORA</a>
     </div>
 </footer>
 
@@ -620,27 +620,5 @@
 </script>
 <script src="/js/comment/leancloud.js"></script>
 
-
-<script src="https://myau.moe/js/comment/gitment.browser.js"></script>
-<script>
-    if(window.commentConfig) {
-      window.commentConfig.id = 'Mon Aug 19 2019 22:30:34 GMT+0800'
-      window.commentConfig.owner = '50160905# 必填项, 你的GitHub ID'
-      window.commentConfig.repo = 'icespite.github.io# 必填项  你的存储评论的repo'
-      window.commentConfig.client_id = '90bc0b02e0c7bed12dd4# 必填项'
-      window.commentConfig.client_secret = '3a187c963f26482af3d6a3cc2d8bbed75a3d3fa9# 必填项'
-      window.commentConfig.redirect_uri = ''
-    } else {
-      window.commentConfig = {
-      	id: 'Mon Aug 19 2019 22:30:34 GMT+0800',
-        owner: '50160905# 必填项, 你的GitHub ID',
-        repo: 'icespite.github.io# 必填项  你的存储评论的repo',
-        client_id: '90bc0b02e0c7bed12dd4# 必填项',
-        client_secret: '3a187c963f26482af3d6a3cc2d8bbed75a3d3fa9# 必填项',
-        redirect_uri: ''
-      }
-    }
-</script>
-<script src="/js/comment/gitment.js"></script>
 
 </html>
