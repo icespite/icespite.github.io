@@ -55,11 +55,11 @@
   </entry>
   
   <entry>
-    <title>icespite&#39;s blog</title>
+    <title>test</title>
     <link href="http://yoursite.com/2019/08/19/test/"/>
     <id>http://yoursite.com/2019/08/19/test/</id>
     <published>2019-08-19T07:39:05.000Z</published>
-    <updated>2019-08-19T15:28:26.928Z</updated>
+    <updated>2019-08-20T03:01:47.545Z</updated>
     
     <content type="html"><![CDATA[<p>这是我的第一个blog，欢迎大家来光顾鸭，嘻嘻嘻嘻。</p><br>一些常用代码：用作勉励，<del>其实是记不住</del><br><p> $ hexo clean   //该命令的作用是清除缓存，若不输入此命令，服务器有可能更新不了主题<br> $ hexo g -d （在hexo目录）是更新代码</p><p>标签、分类等：<br>回到hexo文件夹下，依次执行hexo g，hexo server和hexo deploy命令(重新部署)。</p>]]></content>
     
