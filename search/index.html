@@ -223,7 +223,7 @@
     // 获取每页的页码数
     var pageSize = '10'
     var useLeancloud = 'M7jWGalf1nUjE7Oo9Rt3J5Qd'
-    var useComment = ('false' === 'true')
+    var useComment = ('true' === 'true')
     $.getJSON('/content.json', function (json) {
       $('#search-breadcrumb').append(`搜索'${s}'的结果`)
       var result = getArticles(s, 'posts', json).concat(getArticles(s, 'pages', json))
@@ -247,7 +247,7 @@
       	var [month, day] = article.date.split('-')
         ''
         ''
-        var defaultPreview = '/imgs/preview/preview4.jpg'
+        var defaultPreview = '/imgs/preview/preview2.jpg'
         var preview = article.preview ? article.preview : defaultPreview
         var path = '/' + article.path
         resultList.append(`<div class="article well clearfix article-body article-excerpt" data-aos="flip-up">
@@ -461,6 +461,12 @@
                 </span>
             </li>
             
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/2019/08/19/test/">icespite&#39;s blog</a>
+                </span>
+            </li>
+            
         </ul>
     </div>
 </aside>
@@ -480,6 +486,12 @@
             <li class="list-group-item">
                 <span class="post-title">
                     <a href="/2019/08/19/icespite-s-blog/">icespite&#39;s blog</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/2019/08/19/test/">icespite&#39;s blog</a>
                 </span>
             </li>
             
@@ -512,7 +524,7 @@
                 
                 <div class="cloud-tags tab-pane nav bs-sidenav fade" id="sidebar-tags">
     
-    <a href="/tags/myself/" style="font-size: 17.500938562429596px;" class="tag-cloud-link">myself</a>
+    <a href="/tags/myself/" style="font-size: 13.685313476022031px;" class="tag-cloud-link">myself</a>
     
 </div>
                 
@@ -628,5 +640,27 @@
 </script>
 <script src="/js/comment/leancloud.js"></script>
 
+
+<script src="https://myau.moe/js/comment/gitment.browser.js"></script>
+<script>
+    if(window.commentConfig) {
+      window.commentConfig.id = 'Mon Aug 19 2019 22:30:34 GMT+0800'
+      window.commentConfig.owner = '50160905'
+      window.commentConfig.repo = 'icespite.github.io'
+      window.commentConfig.client_id = 'c31f6ff71525494d8a46'
+      window.commentConfig.client_secret = '40f37c7f103eb4ecda2f34b93494ce2b192966d8'
+      window.commentConfig.redirect_uri = ''
+    } else {
+      window.commentConfig = {
+      	id: 'Mon Aug 19 2019 22:30:34 GMT+0800',
+        owner: '50160905',
+        repo: 'icespite.github.io',
+        client_id: 'c31f6ff71525494d8a46',
+        client_secret: '40f37c7f103eb4ecda2f34b93494ce2b192966d8',
+        redirect_uri: ''
+      }
+    }
+</script>
+<script src="/js/comment/gitment.js"></script>
 
 </html>

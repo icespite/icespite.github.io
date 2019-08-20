@@ -54,4 +54,42 @@
     
   </entry>
   
+  <entry>
+    <title>icespite&#39;s blog</title>
+    <link href="http://yoursite.com/2019/08/19/test/"/>
+    <id>http://yoursite.com/2019/08/19/test/</id>
+    <published>2019-08-19T07:39:05.000Z</published>
+    <updated>2019-08-19T15:28:26.928Z</updated>
+    
+    <content type="html"><![CDATA[<p>这是我的第一个blog，欢迎大家来光顾鸭，嘻嘻嘻嘻。</p><br>一些常用代码：用作勉励，<del>其实是记不住</del><br><p> $ hexo clean   //该命令的作用是清除缓存，若不输入此命令，服务器有可能更新不了主题<br> $ hexo g -d （在hexo目录）是更新代码</p><p>标签、分类等：<br>回到hexo文件夹下，依次执行hexo g，hexo server和hexo deploy命令(重新部署)。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;
+这是我的第一个blog，欢迎大家来光顾鸭，嘻嘻嘻嘻。
+&lt;/p&gt;
+
+
+
+
+
+&lt;br&gt;
+一些常用代码：用作勉励，&lt;del&gt;其实是记不住&lt;/del&gt;
+&lt;br&gt;
+&lt;p&gt;
+ $ hexo clean  
+ //该命令的作用是清除缓存，若不输入此命令，服务器有可能更新不了主题&lt;br&gt;
+      
+    
+    </summary>
+    
+      <category term="休闲随笔" scheme="http://yoursite.com/categories/%E4%BC%91%E9%97%B2%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="myself" scheme="http://yoursite.com/tags/myself/"/>
+    
+  </entry>
+  
 </feed>
