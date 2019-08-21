@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://icespite.top/"/>
-  <updated>2019-08-20T14:07:30.234Z</updated>
+  <updated>2019-08-21T01:29:21.919Z</updated>
   <id>http://icespite.top/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>qq、微信防撤回</title>
+    <link href="http://icespite.top/2019/08/21/xp-qx/"/>
+    <id>http://icespite.top/2019/08/21/xp-qx/</id>
+    <published>2019-08-20T23:51:14.000Z</published>
+    <updated>2019-08-21T01:29:21.919Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="第一步：准备xp"><a href="#第一步：准备xp" class="headerlink" title="第一步：准备xp"></a>第一步：准备xp</h1><ol><li>有root</li></ol><hr><ul><li>有root的用户推荐直接安装<strong>xp</strong>框架，注意安卓p用户安装<strong>edxp</strong>。<br><br></li><li>贴上我的edxp配置：  <br><br></li></ul><ol><li><strong>magisk模块</strong>：<br><img src="/.top//IMG_20190821_082537.jpg" alt="magisk模块" width="50" height="50"></li><li><strong>edxp</strong>:<br><img src="/.top//IMG_20190821_083213.jpg" alt="edxp" title="edxp" width="50" height="50"></li></ol><ol start="2"><li>无root</li></ol><hr><ul><li>无root的用户请安装<strong>太极</strong>：<a href="https://taichi.ctfile.com/fs/19604958-393127816" target="_blank" rel="noopener">下载太极</a> <br><br></li><li>请注意:<strong><em>使用太极安装xp模块会需要卸载应用后重新安装，请做好资料备份</em></strong></li></ul><h1 id="第二步-下载模块和适配qq、微信"><a href="#第二步-下载模块和适配qq、微信" class="headerlink" title="第二步: 下载模块和适配qq、微信"></a>第二步: 下载模块和适配qq、微信</h1><ul><li><a href="https://pan.lanzou.com/b44314" target="_blank" rel="noopener">qx模块、微x模块</a><br></li><li>qx支持最新8.1.0版本qq  <br></li><li>微x支持版本：<img src="/.top//IMG_20190821_090138.jpg" alt="微x支持版本" title="微x支持版本" width="50" height="50"><br><br>本人使用qq8.1.0,微信7.0.4，低版本qq和微信请自行搜索下载。<br><h1 id="第三步-安装模块并激活"><a href="#第三步-安装模块并激活" class="headerlink" title="第三步 安装模块并激活"></a>第三步 安装模块并激活</h1></li></ul><ol><li>有root</li></ol><hr><ul><li>直接在xp中激活并重启（手机）即可在qq、微信设置页面看到模块。</li></ul><ol start="2"><li>无root</li></ol><hr><ul><li>在太极中激活模块并且将qq、微信添加进太极，然后按照步骤卸载优化、再次安装即可。<br></li></ul><ol start="3"><li>成功截图：（请实际测试效果）</li></ol><hr><ul><li><img src="/.top//IMG_20190821_091059.jpg" alt="微x成功截图" title="微x成功截图" width="50" height="50"> </li><li><img src="/.top//IMG_20190821_091134.jpg" alt="GitHub" title="GitHub,Social Coding" width="50" height="50"> <br><h1 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h1></li><li>这是我的第一个正式博客哦，有些小兴奋，有问题欢迎大家在下面留言或者联系我，我会一一解答。</li></ul><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;第一步：准备xp&quot;&gt;&lt;a href=&quot;#第一步：准备xp&quot; class=&quot;headerlink&quot; title=&quot;第一步：准备xp&quot;&gt;&lt;/a&gt;第一步：准备xp&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;有root&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;有root的用户推
+      
+    
+    </summary>
+    
+      <category term="xp插件" scheme="http://icespite.top/categories/xp%E6%8F%92%E4%BB%B6/"/>
+    
+    
+      <category term="xp插件" scheme="http://icespite.top/tags/xp%E6%8F%92%E4%BB%B6/"/>
+    
+  </entry>
   
   <entry>
     <title>官改系统分享</title>
