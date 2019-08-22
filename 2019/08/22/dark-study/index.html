@@ -4,11 +4,12 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="dark_study, IceSpite的小窝">
-    <meta name="description" content="黑白网页html跳过渲染
-        document.querySelectorAll(&#39;.github-emoji&#39;)
-          .forEach(el =&gt; {
-            if (!el.dataset.s">
+    <meta name="keywords" content="黑白网页, IceSpite的小窝">
+    <meta name="description" content="黑白网页html跳过渲染打开 Hexo 目录下的_config.yml 文件，找到skip_renderskip_render常用参数:
+
+跳过source目录下的 test.html: skip_render: test.html
+
+跳过">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -16,7 +17,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>dark_study | IceSpite的小窝</title>
+    <title>黑白网页 | IceSpite的小窝</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -276,13 +277,13 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/8.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/16.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        dark_study
+                        黑白网页
                     </div>
                 </div>
             </div>
@@ -424,7 +425,7 @@
                     
                     <div class="info-break-policy">
                         <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        9
+                        159
                     </div>
                     
 
@@ -447,7 +448,29 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="黑白网页"><a href="#黑白网页" class="headerlink" title="黑白网页"></a>黑白网页</h1><h2 id="html跳过渲染"><a href="#html跳过渲染" class="headerlink" title="html跳过渲染"></a>html跳过渲染</h2><script>
+                <h1 id="黑白网页"><a href="#黑白网页" class="headerlink" title="黑白网页"></a>黑白网页</h1><h2 id="html跳过渲染"><a href="#html跳过渲染" class="headerlink" title="html跳过渲染"></a>html跳过渲染</h2><p>打开 Hexo 目录下的_config.yml 文件，找到skip_render<br><br>skip_render常用参数:<br></p>
+<ol>
+<li><p>跳过source目录下的 test.html: skip_render: test.html<br></p>
+</li>
+<li><p>跳过source目录下 test 文件夹内所有文件：skip_render: test/<br></p>
+</li>
+<li><p>跳过source目录下 test 文件夹内所有文件包括子文件夹以及子文件夹内的文件：skip_render: test/**<br></p>
+</li>
+<li><p>跳过多个路径:<br>```<br>skip_render:</p>
+</li>
+</ol>
+<ul>
+<li>test.html</li>
+<li>test/*<pre><code>## 加入黑白代码 ##
+在网页头部中的&lt;head&gt;标签内部加入内联CSS代码的形式实现网站网页变灰
+</code></pre></li>
+</ul>
+<p>代码：</p>
+<pre><code>&lt;style type="text/css"&gt;
+html {
+filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+-webkit-filter: grayscale(100%);}
+&lt;/style&gt;</code></pre><script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
@@ -623,7 +646,7 @@
             <br/>
             <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text"
                   property="dct:title" rel="dct:type">
-                    《dark_study》
+                    《黑白网页》
                 </span> 由
             <a xmlns:cc="http://creativecommons.org/ns#" href="/2019/08/22/dark-study/" property="cc:attributionName"
                rel="cc:attributionURL">
@@ -687,50 +710,36 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
-            </div>
+                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2019/08/22/dark-study/">
+                <a href="/2019/08/22/test/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="dark_study">
+                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="黑白网页、代码高亮测试">
                         
-                        <span class="card-title">dark_study</span>
+                        <span class="card-title">黑白网页、代码高亮测试</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            hexo学习制作黑白网页、代码高亮
+                            测试作黑白网页
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-08-22
-                            </span>
+                        <span class="publish-date">
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2019-08-22
+                        </span>
                         <span class="publish-author">
                             
-                            <i class="fa fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/hexo学习/" class="post-category" target="_blank">
-                                    hexo学习
-                                </a>
-                            
+                            <i class="fa fa-user fa-fw"></i>
+                            IceSpite
                             
                         </span>
                     </div>
-                </div>
-
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/学习/" target="_blank">
-                        <span class="chip bg-color">学习</span>
-                    </a>
-                    
                 </div>
                 
             </div>
@@ -896,7 +905,7 @@
 			
             
                 &nbsp;<i class="fa fa-area-chart"></i>&nbsp;   站点总字数:&nbsp;
-                <span class="white-color">458</span>
+                <span class="white-color">611</span>
             
 
             
