@@ -450,13 +450,13 @@
             <div id="articleContent">
                 <h1 id="黑白网页"><a href="#黑白网页" class="headerlink" title="黑白网页"></a>黑白网页</h1><h2 id="html跳过渲染"><a href="#html跳过渲染" class="headerlink" title="html跳过渲染"></a>html跳过渲染</h2><p>打开 Hexo 目录下的_config.yml 文件，找到skip_render<br><br>skip_render常用参数:<br></p>
 <ol>
-<li><p>跳过source目录下的 test.html: skip_render: test.html<br></p>
+<li><p>跳过source目录下的 test.html: <code>skip_render: test.html</code></p>
 </li>
-<li><p>跳过source目录下 test 文件夹内所有文件：skip_render: test/<br></p>
+<li><p>跳过source目录下 test 文件夹内所有文件：<code>skip_render: test/</code></p>
 </li>
-<li><p>跳过source目录下 test 文件夹内所有文件包括子文件夹以及子文件夹内的文件：skip_render: test/**<br></p>
+<li><p>跳过source目录下 test 文件夹内所有文件包括子文件夹以及子文件夹内的文件：<code>skip_render: test/**</code></p>
 </li>
-<li><p>跳过多个路径:<br>``` html<br>skip_render:</p>
+<li><p>跳过多个路径:<br>``` java<br>skip_render:</p>
 </li>
 </ol>
 <ul>
@@ -466,11 +466,11 @@
 </code></pre></li>
 </ul>
 <p>代码：</p>
-<pre class=" language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>text/css<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token style language-css">
-<span class="token selector">html </span><span class="token punctuation">{</span>
-<span class="token property">filter</span><span class="token punctuation">:</span> <span class="token property">progid</span><span class="token punctuation">:</span>DXImageTransform<span class="token number">.</span>Microsoft<span class="token number">.</span><span class="token function">BasicImage</span><span class="token punctuation">(</span>grayscale=<span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token property">-webkit-filter</span><span class="token punctuation">:</span> <span class="token function">grayscale</span><span class="token punctuation">(</span><span class="token number">100%</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token punctuation">}</span>
-</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">></span></span></code></pre>
+<pre class=" language-java"><code class="language-java"><span class="token operator">&lt;</span>style type<span class="token operator">=</span><span class="token string">"text/css"</span><span class="token operator">></span>
+html <span class="token punctuation">{</span>
+filter<span class="token operator">:</span> progid<span class="token operator">:</span>DXImageTransform<span class="token punctuation">.</span>Microsoft<span class="token punctuation">.</span><span class="token function">BasicImage</span><span class="token punctuation">(</span>grayscale<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token operator">-</span>webkit<span class="token operator">-</span>filter<span class="token operator">:</span> <span class="token function">grayscale</span><span class="token punctuation">(</span><span class="token number">100</span><span class="token operator">%</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token punctuation">}</span>
+<span class="token operator">&lt;</span><span class="token operator">/</span>style<span class="token operator">></span></code></pre>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -719,9 +719,9 @@
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="黑白网页、代码高亮测试">
+                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="黑白网页">
                         
-                        <span class="card-title">黑白网页、代码高亮测试</span>
+                        <span class="card-title">黑白网页</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -906,7 +906,7 @@
 			
             
                 &nbsp;<i class="fa fa-area-chart"></i>&nbsp;   站点总字数:&nbsp;
-                <span class="white-color">612</span>
+                <span class="white-color">826</span>
             
 
             
