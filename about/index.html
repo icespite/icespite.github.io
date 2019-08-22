@@ -28,7 +28,8 @@
     </style>
 
     <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
-</head>
+<link rel="stylesheet" href="/css/prism.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
 
 
 <body>
@@ -508,7 +509,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"hexo学习","value":1},{"name":"休闲随笔","value":1},{"name":"手机系统","value":1},{"name":"xp插件","value":1}],
+                data: [{"name":"hexo学习","value":1},{"name":"手机系统","value":1},{"name":"休闲随笔","value":1},{"name":"xp插件","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -532,7 +533,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
         xAxis: [
             {
                 type: 'category',
-                data: ["学习","myself","系统分享","xp插件"]
+                data: ["学习","系统分享","myself","xp插件"]
             }
         ],
         yAxis: [
