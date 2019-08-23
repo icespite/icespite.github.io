@@ -469,9 +469,14 @@ layout<span class="token operator">:</span> <span class="token boolean">false</s
 <span class="token operator">--</span><span class="token operator">-</span></code></pre>
 <h2 id="加入黑白代码"><a href="#加入黑白代码" class="headerlink" title="加入黑白代码"></a>加入黑白代码</h2><p>在网页头部中的<meta name="generator" content="Hexo 3.9.0">标签内部加入内联CSS代码的形式实现网站网页变灰<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></p>
 <p>代码：</p>
-<pre class=" language-java"><code class="language-java">html <span class="token punctuation">{</span>
-filter<span class="token operator">:</span> progid<span class="token operator">:</span>DXImageTransform<span class="token punctuation">.</span>Microsoft<span class="token punctuation">.</span><span class="token function">BasicImage</span><span class="token punctuation">(</span>grayscale<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token operator">-</span>webkit<span class="token operator">-</span>filter<span class="token operator">:</span> <span class="token function">grayscale</span><span class="token punctuation">(</span><span class="token number">100</span><span class="token operator">%</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token punctuation">}</span></code></pre>
+<pre class=" language-java"><code class="language-java">
+<span class="token operator">&lt;</span>style type<span class="token operator">=</span><span class="token string">"text/css"</span><span class="token operator">></span>
+html <span class="token punctuation">{</span>
+FILTER<span class="token operator">:</span> gray<span class="token punctuation">;</span>
+<span class="token operator">-</span>webkit<span class="token operator">-</span>filter<span class="token operator">:</span> <span class="token function">grayscale</span><span class="token punctuation">(</span><span class="token number">100</span><span class="token operator">%</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token operator">&lt;</span><span class="token operator">/</span>style<span class="token operator">></span>
+</code></pre>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
