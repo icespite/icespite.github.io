@@ -5,11 +5,10 @@
 <head><meta name="generator" content="Hexo 3.9.0">
     <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="utf-8">
     <meta name="keywords" content="黑白网页, IceSpite">
-    <meta name="description" content="黑白网页html跳过渲染打开 Hexo 目录下的_config.yml 文件，找到skip_renderskip_render常用参数:
+    <meta name="description" content="黑白网页html跳过渲染方法一打开 Hexo 目录下的_config.yml 文件，找到skip_renderskip_render常用参数:
 
 跳过source目录下的 test.html: skip_render: test.html
-
-跳过">
+">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -425,7 +424,7 @@
                     
                     <div class="info-break-policy">
                         <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        156
+                        171
                     </div>
                     
 
@@ -448,7 +447,7 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="黑白网页"><a href="#黑白网页" class="headerlink" title="黑白网页"></a>黑白网页</h1><h2 id="html跳过渲染"><a href="#html跳过渲染" class="headerlink" title="html跳过渲染"></a>html跳过渲染</h2><p>打开 Hexo 目录下的_config.yml 文件，找到skip_render<br><br>skip_render常用参数:<br></p>
+                <h1 id="黑白网页"><a href="#黑白网页" class="headerlink" title="黑白网页"></a>黑白网页</h1><h2 id="html跳过渲染"><a href="#html跳过渲染" class="headerlink" title="html跳过渲染"></a>html跳过渲染</h2><h3 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h3><p>打开 Hexo 目录下的_config.yml 文件，找到skip_render<br><br>skip_render常用参数:<br></p>
 <ol>
 <li><p>跳过source目录下的 test.html: <code>skip_render: test.html</code></p>
 </li>
@@ -464,12 +463,15 @@
 </ol>
 </li>
 </ol>
-<h2 id="加入黑白代码"><a href="#加入黑白代码" class="headerlink" title="加入黑白代码"></a>加入黑白代码</h2><p>在网页头部中的<meta name="generator" content="Hexo 3.9.0">标签内部加入内联CSS代码的形式实现网站网页变灰<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
-<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></p>
+<h3 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h3><p>在html前加入代码：</p>
+<pre class=" language-java"><code class="language-java"><span class="token operator">--</span><span class="token operator">-</span>
+layout<span class="token operator">:</span> <span class="token boolean">false</span>
+<span class="token operator">--</span><span class="token operator">-</span></code></pre>
+<h2 id="加入黑白代码"><a href="#加入黑白代码" class="headerlink" title="加入黑白代码"></a>加入黑白代码</h2><p>在网页头部中的<meta name="generator" content="Hexo 3.9.0">标签内部加入内联CSS代码的形式实现网站网页变灰<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></p>
 <p>代码：</p>
-<pre class="line-numbers language-java"><code class="language-java">html <span class="token punctuation">{</span>
+<pre class=" language-java"><code class="language-java">html <span class="token punctuation">{</span>
 filter<span class="token operator">:</span> progid<span class="token operator">:</span>DXImageTransform<span class="token punctuation">.</span>Microsoft<span class="token punctuation">.</span><span class="token function">BasicImage</span><span class="token punctuation">(</span>grayscale<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token operator">-</span>webkit<span class="token operator">-</span>filter<span class="token operator">:</span> <span class="token function">grayscale</span><span class="token punctuation">(</span><span class="token number">100</span><span class="token operator">%</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<span class="token operator">-</span>webkit<span class="token operator">-</span>filter<span class="token operator">:</span> <span class="token function">grayscale</span><span class="token punctuation">(</span><span class="token number">100</span><span class="token operator">%</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token punctuation">}</span></code></pre>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -710,11 +712,12 @@ filter<span class="token operator">:</span> progid<span class="token operator">:
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2019/08/22/test/">
+                <a href="/2019/08/22/dark-study/">
                     <div class="card-image">
                         
                         
@@ -726,20 +729,33 @@ filter<span class="token operator">:</span> progid<span class="token operator">:
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            测试作黑白网页
+                            hexo学习制作黑白网页
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2019-08-22
-                        </span>
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-08-22
+                            </span>
                         <span class="publish-author">
                             
-                            <i class="fa fa-user fa-fw"></i>
-                            IceSpite
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/hexo学习/" class="post-category" target="_blank">
+                                    hexo学习
+                                </a>
+                            
                             
                         </span>
                     </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/学习/" target="_blank">
+                        <span class="chip bg-color">学习</span>
+                    </a>
+                    
                 </div>
                 
             </div>
@@ -905,7 +921,7 @@ filter<span class="token operator">:</span> progid<span class="token operator">:
 			
             
                 &nbsp;<i class="fa fa-area-chart"></i>&nbsp;   站点总字数:&nbsp;
-                <span class="white-color">608</span>
+                <span class="white-color">620</span>
             
 
             
