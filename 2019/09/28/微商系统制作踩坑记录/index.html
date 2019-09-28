@@ -4,8 +4,13 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="utf-8">
-    <meta name="keywords" content="捐助, IceSpite">
-    <meta name="description" content="捐助 | IceSpite">
+    <meta name="keywords" content="IceSpite">
+    <meta name="description" content="title: 微商系统制作踩坑记录
+date: 2019-09-28
+tags: SpringBoot
+categories: 后端
+cover: true
+summary: c++课设（你没看错，确实是c++）用SpringBoot制作微">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -13,7 +18,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>捐助 | IceSpite</title>
+    <title>IceSpite</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -306,13 +311,13 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/1.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        捐助
+                        
                     </div>
                 </div>
             </div>
@@ -435,14 +440,14 @@
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2019-08-20
+                    2019-09-28
                 </div>
 
                 
                     
                     <div class="info-break-policy">
                         <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        7
+                        180
                     </div>
                     
 
@@ -465,10 +470,23 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p> <big>  **谢谢搭嘎的资助**</big><br></p>
-<br>
-
-<p><img src="/money/index/weixin.png" alt=""><br><br><img src="/money/index/alipay.jpg" alt=""><br></p>
+                <pre><code>title: 微商系统制作踩坑记录
+date: 2019-09-28
+tags: SpringBoot
+categories: 后端
+cover: true
+summary: c++课设（你没看错，确实是c++）用SpringBoot制作微商系统的一系列踩坑记录（持续更新）
+top: true</code></pre><h1 id="一、MySQL"><a href="#一、MySQL" class="headerlink" title="一、MySQL"></a>一、MySQL</h1><h2 id="1-错误"><a href="#1-错误" class="headerlink" title="1.错误"></a>1.错误</h2><h3 id="1-时区错误"><a href="#1-时区错误" class="headerlink" title="1.时区错误"></a>1.时区错误</h3><p>错误提示：</p>
+<pre class=" language-mysql"><code class="language-mysql">[2019-09-28 16:53:28] Server returns invalid timezone. Go to 'Advanced' tab and set 'serverTimezone' property manually.</code></pre>
+<p>解决办法：</p>
+<p>修改<strong>my.ini</strong>配置文件，加上下面这句：</p>
+<pre class=" language-ini"><code class="language-ini"><span class="token constant">default-time-zone</span><span class="token attr-value"><span class="token punctuation">=</span>'+08:00'</span></code></pre>
+<p>然后重启MySQL(<strong>记得管理员权限运行cmd</strong>)</p>
+<pre class=" language-mysql"><code class="language-mysql">net start mysql</code></pre>
+<h2 id="2-用法"><a href="#2-用法" class="headerlink" title="2.用法"></a>2.用法</h2><h3 id="1-修改字段类型"><a href="#1-修改字段类型" class="headerlink" title="1.修改字段类型"></a>1.修改字段类型</h3><pre class=" language-mysql"><code class="language-mysql">alter table 表名 modify 字段名 字段类型; </code></pre>
+<p>例如：</p>
+<pre class=" language-mysql"><code class="language-mysql">alter table mima modify zhanghao VARCHAR(20);</code></pre>
+<h1 id="二、MarkDown"><a href="#二、MarkDown" class="headerlink" title="二、MarkDown"></a>二、MarkDown</h1><h2 id="1-Typora发布hexo文章"><a href="#1-Typora发布hexo文章" class="headerlink" title="1.Typora发布hexo文章"></a>1.Typora发布hexo文章</h2><p>表头先用```把内容补充完整</p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -647,8 +665,8 @@
                 </a>
             </div>
             <br/>
-            <a  href="/money/index.html">
-                    《捐助》
+            <a  href="/2019/09/28/微商系统制作踩坑记录/">
+                    《》
             </a> 由
             <a href="http://icespite.top">
                 IceSpite
@@ -690,7 +708,7 @@
         repo: 'IceSpiteComment',
         owner: 'icespite',
         admin: "icespite",
-        id: '2019-08-20T13-02-12',
+        id: '2019-09-28T17-42-47',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -716,31 +734,29 @@
                 <i class="fas fa-chevron-left"></i>&nbsp;本篇
             </div>
             <div class="card">
-                <a href="/money/index.html">
+                <a href="/2019/09/28/微商系统制作踩坑记录/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="捐助">
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
                         
-                        <span class="card-title">捐助</span>
+                        <span class="card-title"></span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                               **谢谢搭嘎的资助**
-
-
-
-
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dat
+                            title: 微商系统制作踩坑记录
+date: 2019-09-28
+tags: SpringBoot
+categories: 后端
+cover: true
+summary: c++课设（你没看错，确实是c++）用SpringBoot制作微
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2019-08-20
+                                <i class="far fa-clock fa-fw icon-date"></i>2019-09-28
                             </span>
                         <span class="publish-author">
                             
@@ -758,44 +774,48 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="fas fa-chevron-right"></i>
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/money/index.html">
+                <a href="/2019/09/27/Spring Boot笔记/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="捐助">
+                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="Spring Boot笔记">
                         
-                        <span class="card-title">捐助</span>
+                        <span class="card-title">Spring Boot笔记</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                               **谢谢搭嘎的资助**
-
-
-
-
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dat
+                            尚硅谷老师教课的笔记，放在这里方便查看
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2019-08-20
+                                <i class="far fa-clock fa-fw icon-date"></i>2019-09-27
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            IceSpite
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/后端/" class="post-category">
+                                    后端
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
-
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/SpringBoot/">
+                        <span class="chip bg-color">SpringBoot</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
