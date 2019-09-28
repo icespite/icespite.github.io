@@ -456,7 +456,7 @@
                     
                     <div class="info-break-policy">
                         <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        133
+                        311
                     </div>
                     
 
@@ -489,7 +489,29 @@
 <h2 id="2-用法"><a href="#2-用法" class="headerlink" title="2.用法"></a>2.用法</h2><h3 id="1-修改字段类型"><a href="#1-修改字段类型" class="headerlink" title="1.修改字段类型"></a>1.修改字段类型</h3><pre class=" language-mysql"><code class="language-mysql">alter table 表名 modify 字段名 字段类型; </code></pre>
 <p>例如：</p>
 <pre class=" language-mysql"><code class="language-mysql">alter table mima modify zhanghao VARCHAR(20);</code></pre>
-<h1 id="二、MarkDown"><a href="#二、MarkDown" class="headerlink" title="二、MarkDown"></a>二、MarkDown</h1><h2 id="1-Typora发布hexo文章"><a href="#1-Typora发布hexo文章" class="headerlink" title="1.Typora发布hexo文章"></a>1.Typora发布hexo文章</h2><p>表头先打上-–然后回车，然后把表头内容补充完整</p>
+<h1 id="二、MarkDown"><a href="#二、MarkDown" class="headerlink" title="二、MarkDown"></a>二、MarkDown</h1><h2 id="1-Typora发布hexo文章"><a href="#1-Typora发布hexo文章" class="headerlink" title="1.Typora发布hexo文章"></a>1.Typora发布hexo文章</h2><pre class=" language-java"><code class="language-java">表头先打上<span class="token operator">--</span><span class="token operator">-</span>然后回车，然后把表头内容补充完整</code></pre>
+<h2 id="2-Hexo字符转义"><a href="#2-Hexo字符转义" class="headerlink" title="2.Hexo字符转义"></a>2.Hexo字符转义</h2><p>推荐直接使用特殊字符的编码：</p>
+<pre class=" language-java"><code class="language-java"><span class="token operator">-</span> <span class="token operator">&amp;</span>#<span class="token number">45</span><span class="token punctuation">;</span> <span class="token operator">&amp;</span>minus<span class="token punctuation">;</span> — 减号
+<span class="token operator">!</span> <span class="token operator">&amp;</span>#<span class="token number">33</span><span class="token punctuation">;</span> — 惊叹号Exclamation mark 
+” <span class="token operator">&amp;</span>#<span class="token number">34</span><span class="token punctuation">;</span> <span class="token operator">&amp;</span>quot<span class="token punctuation">;</span> 双引号Quotation mark # <span class="token operator">&amp;</span>#<span class="token number">35</span><span class="token punctuation">;</span> — 数字标志Number sign $ <span class="token operator">&amp;</span>#<span class="token number">36</span><span class="token punctuation">;</span> — 美元标志Dollar sign 
+<span class="token operator">%</span> <span class="token operator">&amp;</span>#<span class="token number">37</span><span class="token punctuation">;</span> — 百分号Percent sign 
+<span class="token operator">&amp;</span> <span class="token operator">&amp;</span>#<span class="token number">38</span><span class="token punctuation">;</span> <span class="token operator">&amp;</span>amp<span class="token punctuation">;</span> Ampersand 
+‘ <span class="token operator">&amp;</span>#<span class="token number">39</span><span class="token punctuation">;</span> — 单引号<span class="token function">Apostrophe</span> 
+<span class="token punctuation">(</span> <span class="token operator">&amp;</span>#<span class="token number">40</span><span class="token punctuation">;</span> — 小括号左边部分Left parenthesis 
+<span class="token punctuation">)</span> <span class="token operator">&amp;</span>#<span class="token number">41</span><span class="token punctuation">;</span> — 小括号右边部分Right parenthesis 
+<span class="token operator">*</span> <span class="token operator">&amp;</span>#<span class="token number">42</span><span class="token punctuation">;</span> — 星号Asterisk 
+<span class="token operator">+</span> <span class="token operator">&amp;</span>#<span class="token number">43</span><span class="token punctuation">;</span> — 加号Plus sign 
+<span class="token operator">&lt;</span> <span class="token operator">&amp;</span>#<span class="token number">60</span><span class="token punctuation">;</span> <span class="token operator">&amp;</span>lt<span class="token punctuation">;</span> 小于号Less than 
+<span class="token operator">=</span> <span class="token operator">&amp;</span>#<span class="token number">61</span><span class="token punctuation">;</span> — 等于符号Equals sign 
+<span class="token operator">></span> <span class="token operator">&amp;</span>#<span class="token number">62</span><span class="token punctuation">;</span> <span class="token operator">&amp;</span>gt<span class="token punctuation">;</span> 大于号Greater than 
+<span class="token operator">?</span> <span class="token operator">&amp;</span>#<span class="token number">63</span><span class="token punctuation">;</span> — 问号Question mark 
+@ <span class="token operator">&amp;</span>#<span class="token number">64</span><span class="token punctuation">;</span> — Commercial at 
+<span class="token punctuation">[</span> <span class="token operator">&amp;</span>#<span class="token number">91</span><span class="token punctuation">;</span> <span class="token operator">--</span><span class="token operator">-</span> 中括号左边部分Left square bracket 
+\ <span class="token operator">&amp;</span>#<span class="token number">92</span><span class="token punctuation">;</span> <span class="token operator">--</span><span class="token operator">-</span> 反斜杠Reverse <span class="token function">solidus</span> <span class="token punctuation">(</span>backslash<span class="token punctuation">)</span> 
+<span class="token punctuation">]</span> <span class="token operator">&amp;</span>#<span class="token number">93</span><span class="token punctuation">;</span> — 中括号右边部分Right square bracket 
+<span class="token punctuation">{</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span> — 大括号左边部分Left curly brace 
+<span class="token operator">|</span> <span class="token operator">&amp;</span>#<span class="token number">124</span><span class="token punctuation">;</span> — 竖线Vertical bar 
+<span class="token punctuation">}</span> <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span> — 大括号右边部分Right curly brace </code></pre>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -985,7 +1007,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">1.7k</span>&nbsp;字
+                class="white-color">1.9k</span>&nbsp;字
             
             
             
@@ -1179,11 +1201,11 @@ $(function () {
     
 
     
-    <script type="text/javascript" src="/libs/background/ribbon-dynamic.js" async="async"></script>
+    <script type="text/javascript" src="/libs/background/ribbon-dynamic.js" async="async"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
     
     
     
 
-<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/hibiki.model.json"},"display":{"position":"right","width":145,"height":315},"mobile":{"show":true,"scale":0.5},"react":{"opacityDefault":0.7,"opacityOnHover":0.8},"log":false});</script><!-- hexo-inject:begin --><!-- hexo-inject:end --></body>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/hibiki.model.json"},"display":{"position":"right","width":145,"height":315},"mobile":{"show":true,"scale":0.5},"react":{"opacityDefault":0.7,"opacityOnHover":0.8},"log":false});</script></body>
 
 </html>
