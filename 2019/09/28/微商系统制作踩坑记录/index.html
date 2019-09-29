@@ -456,14 +456,14 @@
                     
                     <div class="info-break-policy">
                         <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        330
+                        592
                     </div>
                     
 
                     
                     <div class="info-break-policy">
                         <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                        1 分
+                        3 分
                     </div>
                     
                 
@@ -521,6 +521,18 @@ set global time_zone = '+8:00';</code></pre>
 <span class="token punctuation">{</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span> — 大括号左边部分Left curly brace 
 <span class="token operator">|</span> <span class="token operator">&amp;</span>#<span class="token number">124</span><span class="token punctuation">;</span> — 竖线Vertical bar 
 <span class="token punctuation">}</span> <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span> — 大括号右边部分Right curly brace </code></pre>
+<h1 id="三、SpringBoot"><a href="#三、SpringBoot" class="headerlink" title="三、SpringBoot"></a>三、SpringBoot</h1><h2 id="1-用法"><a href="#1-用法" class="headerlink" title="1.用法"></a>1.用法</h2><h3 id="1-页面提示"><a href="#1-页面提示" class="headerlink" title="1.页面提示"></a>1.页面提示</h3><pre class=" language-java"><code class="language-java"><span class="token punctuation">(</span>Map<span class="token operator">&lt;</span>String<span class="token punctuation">,</span>Object<span class="token operator">></span> map<span class="token punctuation">)</span>
+map<span class="token punctuation">.</span><span class="token function">put</span><span class="token punctuation">(</span><span class="token string">"msg"</span><span class="token punctuation">,</span><span class="token string">"用户名密码错误"</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<h3 id="2-常用注解"><a href="#2-常用注解" class="headerlink" title="2.常用注解"></a>2.常用注解</h3><ol>
+<li>@Controller<br>@Controller 用来响应页面，表示当前的类为控制器。</li>
+<li>@RestController<br>@RestController 是@ResponseBody和@Controller的结合<br>表明当前类是控制器且返回的是一组数据，不是页面</li>
+<li>@Autowired<br>这个注解的作用是将其他的类，接口引入，类似于之前的类的初始化等，用这个注解，类中或接口的方法就可以直接调用了。</li>
+<li>@RequestMapping<br>当前台界面调用Controller处理数据时候告诉控制器怎么操作<br>作用：URL映射。</li>
+<li>@GetMapping<br>@RequestMapping(method = RequestMethod.GET)的简写<br>作用：对应查询，表明是一个查询URL映射</li>
+<li>@PostMapping<br>@RequestMapping(method = RequestMethod.POST)的简写<br>作用：对应增加，表明是一个增加URL映射</li>
+<li>@PutMapping<br>@RequestMapping(method = RequestMethod.PUT)的简写<br>作用：对应更新，表明是一个更新URL映射</li>
+<li>@DeleteMapping<br>@RequestMapping(method = RequestMethod.DELETE)的简写<br>作用：对应删除，表明是一个删除URL映射</li>
+</ol>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -1016,7 +1028,7 @@ set global time_zone = '+8:00';</code></pre>
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">1.9k</span>&nbsp;字
+                class="white-color">2.2k</span>&nbsp;字
             
             
             
