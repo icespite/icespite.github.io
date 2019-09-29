@@ -483,18 +483,16 @@
 <pre class=" language-mysql"><code class="language-mysql">[2019-09-28 16:53:28] Server returns invalid timezone. Go to 'Advanced' tab and set 'serverTimezone' property manually.</code></pre>
 <p>解决办法：</p>
 <ol>
-<li><p>修改<strong>my.ini</strong>配置文件，加上下面这句：</p>
-<pre class=" language-mysql"><code class="language-mysql">default-time-zone='+08:00';</code></pre>
-<p>然后重启MySQL(<strong>记得管理员权限运行cmd</strong>)</p>
-<pre class=" language-mysql"><code class="language-mysql">net start mysql</code></pre>
-</li>
+<li>修改<strong>my.ini</strong>配置文件，加上下面这句：</li>
 </ol>
+<pre class=" language-mysql"><code class="language-mysql">   default-time-zone='+08:00';</code></pre>
+<p>​       然后重启MySQL(<strong>记得管理员权限运行cmd</strong>)</p>
+<pre class=" language-mysql"><code class="language-mysql">   net start mysql</code></pre>
 <ol start="2">
-<li><p>cmd命令行（<strong>管理员权限</strong>）：</p>
-<pre class=" language-mysql"><code class="language-mysql">mysql –uroot -p
-set global time_zone = '+8:00';</code></pre>
-</li>
+<li>cmd命令行（<strong>管理员权限</strong>）：</li>
 </ol>
+<pre class=" language-mysql"><code class="language-mysql">   mysql –uroot -p
+   set global time_zone = '+8:00';</code></pre>
 <h2 id="2-用法"><a href="#2-用法" class="headerlink" title="2.用法"></a>2.用法</h2><h3 id="1-修改字段类型"><a href="#1-修改字段类型" class="headerlink" title="1.修改字段类型"></a>1.修改字段类型</h3><pre class=" language-mysql"><code class="language-mysql">alter table 表名 modify 字段名 字段类型; </code></pre>
 <p>例如：</p>
 <pre class=" language-mysql"><code class="language-mysql">alter table mima modify zhanghao VARCHAR(20);</code></pre>
@@ -1222,11 +1220,11 @@ $(function () {
     
 
     
-    <script type="text/javascript" src="/libs/background/ribbon-dynamic.js" async="async"></script>
+    <script type="text/javascript" src="/libs/background/ribbon-dynamic.js" async="async"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
     
     
     
 
-<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/hibiki.model.json"},"display":{"position":"right","width":145,"height":315},"mobile":{"show":true,"scale":0.5},"react":{"opacityDefault":0.7,"opacityOnHover":0.8},"log":false});</script><!-- hexo-inject:begin --><!-- hexo-inject:end --></body>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/hibiki.model.json"},"display":{"position":"right","width":145,"height":315},"mobile":{"show":true,"scale":0.5},"react":{"opacityDefault":0.7,"opacityOnHover":0.8},"log":false});</script></body>
 
 </html>
