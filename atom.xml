@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>IceSpite</title>
+  
+  <subtitle>IceSpite</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://icespite.top/"/>
+  <updated>2019-10-13T07:25:04.153Z</updated>
+  <id>http://icespite.top/</id>
+  
+  <author>
+    <name>IceSpite</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>微商系统制作踩坑记录</title>
+    <link href="http://icespite.top/2019/09/28/%E5%BE%AE%E5%95%86%E7%B3%BB%E7%BB%9F%E5%88%B6%E4%BD%9C%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95/"/>
+    <id>http://icespite.top/2019/09/28/微商系统制作踩坑记录/</id>
+    <published>2019-09-27T16:00:00.000Z</published>
+    <updated>2019-10-13T07:25:04.153Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="后端" scheme="http://icespite.top/categories/%E5%90%8E%E7%AB%AF/"/>
+    
+    
+      <category term="SpringBoot" scheme="http://icespite.top/tags/SpringBoot/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>w大MIUI官改</title>
+    <link href="http://icespite.top/2019/09/22/guaigai/"/>
+    <id>http://icespite.top/2019/09/22/guaigai/</id>
+    <published>2019-09-21T16:00:00.000Z</published>
+    <updated>2019-09-23T15:55:04.063Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="手机系统" scheme="http://icespite.top/categories/%E6%89%8B%E6%9C%BA%E7%B3%BB%E7%BB%9F/"/>
+    
+    
+      <category term="系统分享" scheme="http://icespite.top/tags/%E7%B3%BB%E7%BB%9F%E5%88%86%E4%BA%AB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>qq、微信防撤回</title>
+    <link href="http://icespite.top/2019/08/21/xp-qx/"/>
+    <id>http://icespite.top/2019/08/21/xp-qx/</id>
+    <published>2019-08-20T23:51:14.000Z</published>
+    <updated>2019-08-21T03:59:06.896Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="xp插件" scheme="http://icespite.top/categories/xp%E6%8F%92%E4%BB%B6/"/>
+    
+    
+      <category term="xp插件" scheme="http://icespite.top/tags/xp%E6%8F%92%E4%BB%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>icespite&#39;s blog</title>
+    <link href="http://icespite.top/2019/08/19/icespite-s-blog/"/>
+    <id>http://icespite.top/2019/08/19/icespite-s-blog/</id>
+    <published>2019-08-19T07:39:05.000Z</published>
+    <updated>2019-09-23T15:53:53.563Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="休闲随笔" scheme="http://icespite.top/categories/%E4%BC%91%E9%97%B2%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="myself" scheme="http://icespite.top/tags/myself/"/>
+    
+  </entry>
+  
+</feed>
