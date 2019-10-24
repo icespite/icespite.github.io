@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://icespite.top/"/>
-  <updated>2019-10-24T01:49:24.692Z</updated>
+  <updated>2019-10-24T12:41:16.957Z</updated>
   <id>http://icespite.top/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CNCC2019苏州纪行</title>
+    <link href="http://icespite.top/2019/10/24/CNCC2019%E8%8B%8F%E5%B7%9E%E7%BA%AA%E8%A1%8C/"/>
+    <id>http://icespite.top/2019/10/24/CNCC2019苏州纪行/</id>
+    <published>2019-10-24T12:37:37.000Z</published>
+    <updated>2019-10-24T12:41:16.957Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="CNCC2019" scheme="http://icespite.top/tags/CNCC2019/"/>
+    
+  </entry>
   
   <entry>
     <title>微商系统制作踩坑记录</title>
