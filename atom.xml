@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://icespite.top/"/>
-  <updated>2019-10-24T12:41:16.957Z</updated>
+  <updated>2019-10-24T12:42:53.800Z</updated>
   <id>http://icespite.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://icespite.top/2019/10/24/CNCC2019%E8%8B%8F%E5%B7%9E%E7%BA%AA%E8%A1%8C/"/>
     <id>http://icespite.top/2019/10/24/CNCC2019苏州纪行/</id>
     <published>2019-10-24T12:37:37.000Z</published>
-    <updated>2019-10-24T12:41:16.957Z</updated>
+    <updated>2019-10-24T12:42:53.800Z</updated>
     
     <summary type="html">
     
@@ -34,6 +34,8 @@
       
     
     </summary>
+    
+      <category term="休闲随笔" scheme="http://icespite.top/categories/%E4%BC%91%E9%97%B2%E9%9A%8F%E7%AC%94/"/>
     
     
       <category term="CNCC2019" scheme="http://icespite.top/tags/CNCC2019/"/>
