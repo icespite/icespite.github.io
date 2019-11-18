@@ -104,9 +104,9 @@
     
     
     <entry>
-      <title>icespite&#39;s blog</title>
-      <link href="/2019/undefined.html"/>
-      <url>/2019/undefined.html</url>
+      <title>IceSpite&#39;s blog</title>
+      <link href="/2019/2085.html"/>
+      <url>/2019/2085.html</url>
       
         <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>这是我的第一个blog，欢迎大家来光顾鸭，嘻嘻嘻嘻。</p><p>暂定本博客会持续更新一些自用的且个人认为比较优秀官改系统（<strong>miui</strong>）和xp插件、magisk模块和app等，同时也会为大家排雷，分享我遇到的不怎么好的经历，（实名diss酷安上面杂七杂八的官改,比如 <strong>SkyMi</strong>），还有一些我遇到的问题及其解决办法。</p><p>也会作为一个笔记性质的博客啦，分享经历吼。</p><p>最后希望大家能常来并且多多评论吼。</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
       
