@@ -456,7 +456,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2019-11-17
+                    2019-11-18
                 </div>
                 
 
@@ -464,7 +464,7 @@
                     
                     <div class="info-break-policy">
                         <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        1,076
+                        1,017
                     </div>
                     
 
@@ -540,7 +540,7 @@ map<span class="token punctuation">.</span><span class="token function">put</spa
 <li>@DeleteMapping<br>@RequestMapping(method = RequestMethod.DELETE)的简写<br>作用：对应删除，表明是一个删除URL映射</li>
 </ol>
 <h2 id="2-ajax"><a href="#2-ajax" class="headerlink" title="2.ajax"></a>2.ajax</h2><h3 id="1-文件传输"><a href="#1-文件传输" class="headerlink" title="1.文件传输"></a>1.文件传输</h3><p>传送不要用@RequestBody，改为@RequestParam。</p>
-<h2 id="2-待解决"><a href="#2-待解决" class="headerlink" title="2.待解决"></a>2.待解决</h2><p><img src="/.top//loading.gif" data-original="E:%5CTracySpite_Blog%5CHexo%5Csource_posts%5C%E5%BE%AE%E5%95%86%E7%B3%BB%E7%BB%9F%E5%88%B6%E4%BD%9C%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95%5Cimage-20191028211453875.png" alt="image-20191028211453875"></p>
+<h2 id="2-待解决"><a href="#2-待解决" class="headerlink" title="2.待解决"></a>2.待解决</h2><p><img src="/2019/50845/loading.gif" data-original="E:%5CTracySpite_Blog%5CHexo%5Csource_posts%5C%E5%BE%AE%E5%95%86%E7%B3%BB%E7%BB%9F%E5%88%B6%E4%BD%9C%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95%5Cimage-20191028211453875.png" alt="image-20191028211453875"></p>
 <h1 id="四、思路记录"><a href="#四、思路记录" class="headerlink" title="四、思路记录"></a>四、思路记录</h1><h2 id="1-拦截器"><a href="#1-拦截器" class="headerlink" title="1.拦截器"></a>1.拦截器</h2><p>配置好客户页面和商店页面的拦截</p>
 <h2 id="2-雪花算法"><a href="#2-雪花算法" class="headerlink" title="2.雪花算法"></a>2.雪花算法</h2><p>雪花算法生成订单号</p>
 <h2 id="3-优惠策略"><a href="#3-优惠策略" class="headerlink" title="3.优惠策略"></a>3.优惠策略</h2><ol>
@@ -550,38 +550,13 @@ map<span class="token punctuation">.</span><span class="token function">put</spa
 <li>优惠券 </li>
 </ol>
 <h1 id="五、Redis"><a href="#五、Redis" class="headerlink" title="五、Redis"></a>五、Redis</h1><h2 id="1-启动Redis"><a href="#1-启动Redis" class="headerlink" title="1.启动Redis"></a>1.启动Redis</h2><p>cd到Redis目录下，输入redis-server.exe redis.windows.conf即可</p>
-<p><img src="/.top//loading.gif" data-original="https://cdn.jsdelivr.net/gh/icespite/picture/img/1570944085181.png" alt=""></p>
+<p><img src="/2019/50845/loading.gif" data-original="https://cdn.jsdelivr.net/gh/icespite/picture/img/1570944085181.png" alt=""></p>
 <h1 id="六、thymleaf"><a href="#六、thymleaf" class="headerlink" title="六、thymleaf"></a>六、thymleaf</h1><h2 id="1、状态变量"><a href="#1、状态变量" class="headerlink" title="1、状态变量"></a>1、状态变量</h2><p>在使用th：each时，Thymleaf提供了一种用于跟踪迭代状态的机制：状态变量。状态变量在每个th：each属性中定义，并且包含以下数据：</p>
 <blockquote>
 <p>index: 当前的迭代索引，从0开始<br>cout: 当前的迭代计数，从1开始<br>size: 迭代变量中元素的总量<br>current: 每次迭代的iter变量，即前遍历到的元素<br>even/odd: 当前的迭代是偶数还是奇数<br>first: 当前的迭代是否是第一个迭代<br>last: 当前的迭代是否是最后一个迭代</p>
 </blockquote>
 <h1 id="七、Bootstrap、Layui"><a href="#七、Bootstrap、Layui" class="headerlink" title="七、Bootstrap、Layui"></a>七、Bootstrap、Layui</h1><h2 id="1-混用问题"><a href="#1-混用问题" class="headerlink" title="1.混用问题"></a>1.混用问题</h2><p><del>这两个最好不要混用，我半路使用layui修改bootstrap页面导致表单不能正常提交，具体原因待排查。</del>button使用有误，与框架无关。</p>
-<h1 id="八、完成程度"><a href="#八、完成程度" class="headerlink" title="八、完成程度"></a>八、完成程度</h1><ul>
-<li><input checked="" disabled="" type="checkbox"> <p>url分别拦截</p>
-</li>
-<li><input checked="" disabled="" type="checkbox"> <p>卡券打折</p>
-</li>
-<li><input checked="" disabled="" type="checkbox"> <p>搜索功能</p>
-</li>
-<li><input checked="" disabled="" type="checkbox"> <p>高并发</p>
-</li>
-<li><input checked="" disabled="" type="checkbox"> <p>聊天功能</p>
-</li>
-<li><input checked="" disabled="" type="checkbox"> <p>库存不能小于0</p>
-</li>
-<li><input checked="" disabled="" type="checkbox"> <p>优惠信息处理</p>
-</li>
-<li><input disabled="" type="checkbox"> <p>秒杀接口</p>
-</li>
-</ul>
-<h1 id="八、要了解的内容"><a href="#八、要了解的内容" class="headerlink" title="八、要了解的内容"></a>八、要了解的内容</h1><ul>
-<li><input disabled="" type="checkbox"> 连接池</li>
-<li><input disabled="" type="checkbox"> MVC</li>
-<li><input disabled="" type="checkbox"> session</li>
-<li><input disabled="" type="checkbox"> RAbbitMQ</li>
-<li><input disabled="" type="checkbox"> 反向代理</li>
-</ul>
-<h1 id="九、最后的总结"><a href="#九、最后的总结" class="headerlink" title="九、最后的总结"></a>九、最后的总结</h1><h2 id="1-mybatis"><a href="#1-mybatis" class="headerlink" title="1.mybatis"></a>1.mybatis</h2><p> 数据库连接池的基本原理是在内部对象池中维护一定数量的数据库连接，并对外暴露数据库连接获取和返回方法。  外部使用者可通过getConnection 方法获取连接，使用完毕后再通过releaseConnection 方法将连接返回，注意此时连接并没有关闭，而是由连接池管理器回收，并为下一次使用做好准备。 </p>
+<h1 id="八、最后的总结"><a href="#八、最后的总结" class="headerlink" title="八、最后的总结"></a>八、最后的总结</h1><h2 id="1-mybatis"><a href="#1-mybatis" class="headerlink" title="1.mybatis"></a>1.mybatis</h2><p> 数据库连接池的基本原理是在内部对象池中维护一定数量的数据库连接，并对外暴露数据库连接获取和返回方法。  外部使用者可通过getConnection 方法获取连接，使用完毕后再通过releaseConnection 方法将连接返回，注意此时连接并没有关闭，而是由连接池管理器回收，并为下一次使用做好准备。 </p>
 <h2 id="2-哭唧唧"><a href="#2-哭唧唧" class="headerlink" title="2.哭唧唧"></a>2.哭唧唧</h2><p> <a href="https://juejin.im/post/5d40f9726fb9a06b2f5f8d6c" target="_blank" rel="noopener">https://juejin.im/post/5d40f9726fb9a06b2f5f8d6c</a> </p>
 <script>
         document.querySelectorAll('.github-emoji')
@@ -626,7 +601,7 @@ map<span class="token punctuation">.</span><span class="token function">put</spa
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://icespite.top/2019/09/28/微商系统制作踩坑记录/">http://icespite.top/2019/09/28/微商系统制作踩坑记录/</a>
+                    <a href="http://icespite.top/2019/50845.html">http://icespite.top/2019/50845.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -858,7 +833,7 @@ map<span class="token punctuation">.</span><span class="token function">put</spa
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2019/10/24/CNCC2019苏州纪行/">
+                <a href="/2019/undefined.html">
                     <div class="card-image">
                         
                         
@@ -907,7 +882,7 @@ map<span class="token punctuation">.</span><span class="token function">put</spa
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2019/09/22/guaigai/">
+                <a href="/2019/undefined.html">
                     <div class="card-image">
                         
                         
@@ -1350,9 +1325,9 @@ $(function () {
     
     
     
-    <script src="/libs/instantpage/instantpage.js" type="module"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
     
 
-<script>!function(e){var r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function t(){for(var c=0;c<r.length;c++)t=r[c],void 0,0<=(n=t.getBoundingClientRect()).top&&0<=n.left&&n.top<=(e.innerHeight+240||document.documentElement.clientHeight+240)&&function(){var t,n,e,i,o=r[c];t=o,n=function(){r=r.filter(function(t){return o!==t})},e=new Image,i=t.getAttribute("data-original"),e.onload=function(){t.src=i,n&&n()},e.src=i}();var t,n}t(),e.addEventListener("scroll",function(){!function(t,n){clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(n)},500)}(t,e)})}(this);</script></body>
+<script>!function(e){var r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function t(){for(var c=0;c<r.length;c++)t=r[c],void 0,0<=(n=t.getBoundingClientRect()).top&&0<=n.left&&n.top<=(e.innerHeight+240||document.documentElement.clientHeight+240)&&function(){var t,n,e,i,o=r[c];t=o,n=function(){r=r.filter(function(t){return o!==t})},e=new Image,i=t.getAttribute("data-original"),e.onload=function(){t.src=i,n&&n()},e.src=i}();var t,n}t(),e.addEventListener("scroll",function(){!function(t,n){clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(n)},500)}(t,e)})}(this);</script><!-- hexo-inject:begin --><!-- hexo-inject:end --></body>
 
 </html>
