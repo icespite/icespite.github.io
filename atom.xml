@@ -29,7 +29,7 @@
       
         
         
-          &lt;p&gt;在苏州几天的旅行真的是简单又充实，简单在于每天只需要按照学校的安排参加会场、回酒店休息，这种完全不需要自己考虑安排的感觉真的很美妙；充实在于短短几天的时间开阔了眼界、切实接触到了计算机领域基本上可以说是最为前沿的东西，（而且从苏州回来，整个人的心情都好了很多，之前一段时间压
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
         
       
     
@@ -75,8 +75,7 @@
       
         
         
-          &lt;p&gt;现在补上对于官改系统的分享（仅限MIUI）， 第一次接触官改，是冲着能够破解小米主题商店和字体去的&lt;del&gt;（白嫖就是舒服）&lt;/del&gt;，但是随后我就慢慢发现了小米手机巨大的可玩性，乐趣多多哦。&lt;/p&gt;
-&lt;h1 id=&quot;w大介绍&quot;&gt;&lt;a href=&quot;#w大介绍&quot;
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
         
       
     
@@ -86,32 +85,6 @@
     
     
       <category term="系统分享" scheme="http://icespite.top/tags/%E7%B3%BB%E7%BB%9F%E5%88%86%E4%BA%AB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>qq、微信防撤回</title>
-    <link href="http://icespite.top/2019/7190.html"/>
-    <id>http://icespite.top/2019/7190.html</id>
-    <published>2019-08-20T23:51:14.000Z</published>
-    <updated>2019-11-18T11:03:36.067Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;第一步：准备xp&quot;&gt;&lt;a href=&quot;#第一步：准备xp&quot; class=&quot;headerlink&quot; title=&quot;第一步：准备xp&quot;&gt;&lt;/a&gt;第一步：准备xp&lt;/h1&gt;&lt;h2 id=&quot;1-有root&quot;&gt;&lt;a href=&quot;#1-有root&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="xp插件" scheme="http://icespite.top/categories/xp%E6%8F%92%E4%BB%B6/"/>
-    
-    
-      <category term="xp插件" scheme="http://icespite.top/tags/xp%E6%8F%92%E4%BB%B6/"/>
     
   </entry>
   
@@ -128,13 +101,7 @@
       
         
         
-          &lt;p&gt;
-这是我的第一个blog，欢迎大家来光顾鸭，嘻嘻嘻嘻。
-&lt;/p&gt;
-
-
-&lt;p&gt;
-暂定本博客会持续更新一些自用的且个人认为比较优秀官改系统（&lt;strong&gt;miui&lt;/strong&gt;）和xp插件、magisk模块和app等，同时也会为大家排雷，分享我遇到的不怎么好的经历，（实名
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
         
       
     
