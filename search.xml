@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>一点随笔</title>
+      <link href="/2019/21742.html"/>
+      <url>/2019/21742.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>本以为能够以真心换真心，没想到最后确实拿真心去换失望。<br>我本拿出我所有的热情与动力去服务、去关心同学们，可我换来的却是看个通知、回个消息就跟欠了他(她)一百万一样。lay了。</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 休闲随笔 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>CNCC2019苏州纪行</title>
       <link href="/2019/49876.html"/>
       <url>/2019/49876.html</url>
@@ -79,7 +98,7 @@
     
     
     <entry>
-      <title>IceSpite&#39;s blog</title>
+      <title>IceSpite&#39;s Blog</title>
       <link href="/2019/2085.html"/>
       <url>/2019/2085.html</url>
       
