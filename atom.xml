@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://icespite.top/"/>
-  <updated>2019-12-26T15:31:14.508Z</updated>
+  <updated>2019-12-28T15:21:10.171Z</updated>
   <id>http://icespite.top/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo折腾记</title>
+    <link href="http://icespite.top/2019/42926.html"/>
+    <id>http://icespite.top/2019/42926.html</id>
+    <published>2019-12-28T15:10:15.000Z</published>
+    <updated>2019-12-28T15:21:10.171Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script
+        
+      
+    
+    </summary>
+    
+    
+      <category term="前端" scheme="http://icespite.top/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="Hexo" scheme="http://icespite.top/tags/Hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>一点随笔</title>
@@ -94,7 +121,7 @@
     <link href="http://icespite.top/2019/6436.html"/>
     <id>http://icespite.top/2019/6436.html</id>
     <published>2019-09-21T16:00:00.000Z</published>
-    <updated>2019-12-21T02:39:57.365Z</updated>
+    <updated>2019-12-28T15:23:35.001Z</updated>
     
     <summary type="html">
     
@@ -121,7 +148,7 @@
     <link href="http://icespite.top/2019/2085.html"/>
     <id>http://icespite.top/2019/2085.html</id>
     <published>2019-08-19T07:39:05.000Z</published>
-    <updated>2019-12-26T15:24:42.020Z</updated>
+    <updated>2019-12-28T15:22:27.180Z</updated>
     
     <summary type="html">
     
