@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://icespite.top/"/>
-  <updated>2019-12-28T15:24:40.297Z</updated>
+  <updated>2020-01-12T13:41:23.143Z</updated>
   <id>http://icespite.top/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>安卓开发笔记</title>
+    <link href="http://icespite.top/2020/12920.html"/>
+    <id>http://icespite.top/2020/12920.html</id>
+    <published>2020-01-12T13:31:36.000Z</published>
+    <updated>2020-01-12T13:41:23.143Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Android" scheme="http://icespite.top/categories/Android/"/>
+    
+    
+      <category term="Android开发学习" scheme="http://icespite.top/tags/Android%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo折腾记</title>
@@ -48,7 +75,7 @@
     <link href="http://icespite.top/2019/21742.html"/>
     <id>http://icespite.top/2019/21742.html</id>
     <published>2019-12-25T02:16:24.000Z</published>
-    <updated>2019-12-26T15:31:14.508Z</updated>
+    <updated>2020-01-12T13:41:11.218Z</updated>
     
     <summary type="html">
     
@@ -100,7 +127,7 @@
     <link href="http://icespite.top/2019/50845.html"/>
     <id>http://icespite.top/2019/50845.html</id>
     <published>2019-09-27T16:00:00.000Z</published>
-    <updated>2019-12-21T02:40:26.626Z</updated>
+    <updated>2020-01-12T13:45:47.815Z</updated>
     
     <summary type="html">
     
